@@ -7,9 +7,8 @@ import sys, paramiko
 #defining the VM
 hostname = raw_input("What is the FQDN of this server?:")
 title = 'Please pick the best category which defines this server'
-options = ["kvm", "management", "web", "db", "kvm", "other"]
+options = ["kvm", "management", "app", "web", "db", "kvm", "other"]
 option, index = pick(options, title)
-filepath = "/home/brian/ansible/test"
 
 #using paramiko to connect to ansible server and update the hosts file
 host = 'ansible.lilac.red'
