@@ -1,7 +1,6 @@
 #!/bin/python
 
 #place this file on the ansible server. I put it in /home/ansible/scripts/
-from pick import pick
 
 #defining variables
 filepath = "/etc/ansible/hosts"
